@@ -1,0 +1,1 @@
+SELECT p1.name, p2.name FROM products p1 JOIN providers p2 ON p2.id = p1.id_providers AND p2.name LIKE 'Ajax SA';
