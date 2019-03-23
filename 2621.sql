@@ -1,1 +1,1 @@
-SELECT p1.name FROM products p1 JOIN providers p2 ON p2.id = p1.id_providers WHERE p1.amount >= 10 AND p1.amount <= 20 AND p2.name LIKE 'P%';
+SELECT p1.name FROM products p1 JOIN providers p2 ON p2.id = p1.id_providers WHERE p1.amount BETWEEN 10 AND 20 AND p2.name LIKE 'P%';
